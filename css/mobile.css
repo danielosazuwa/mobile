@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: ghostwhite;
+}
+
+#wrapper #logo {
+    width: 100%;
+    height: 75px;
+    margin: 0px auto;
+    padding: 0px 35%;
+    float: left;
+    background-color: white;
+}
+
+#wrapper #logo img {
+    width: 100%;
+    height: 100%;
+}
+
+#wrapper  nav {
+    float: left;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    background-color: none;
+    z-index: 3;
+}
+
+#wrapper  nav #top {
+    width: 100%;
+    height: 50px;
+    padding: 0px;
+    float: left;
+    background-color: #0F0824;
+}
+
+#wrapper  nav #top #rollout_bars {
+    z-index: 5;
+    width: 40px;
+    height: 40px;
+    margin: 5px 20px;
+    float: right;
+    cursor: pointer;
+    display: block;
+}
+
+#wrapper  nav #top #rollin_bars {
+    z-index: 4;
+    width: 40px;
+    height: 40px;
+    margin: 5px 20px;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+
+#wrapper  nav #menu {
+    z-index: 3;
+    position: absolute;
+    top: 49px;
+    left: 0px;
+    height: 1000px;
+    width: 0%;
+    padding-top: 50px;
+    background-color: #0F0824;
+    color: white;
+    opacity: 0.95;
+    transition: 1s;
+    float: left;
+    overflow: hidden;
+}
+
+#wrapper  nav #menu #x {
+    color: #888888;
+    position: absolute;
+    top: 50px;
+    left: 80%;
+    font-size: 150%;
+    cursor: pointer;
+}
+
+#wrapper  nav #menu #x:hover {
+    color: #FFFFFF;
+}
+
+#wrapper  nav #menu ul {
+    list-style-type: none;
+    padding: 0px;
+    float: left;
+}
+
+#wrapper nav #menu ul li {
+    width: 100%;
+    float: left;
+    margin: 15px 0px;
+}
+
+#wrapper  nav #menu ul li a {
+    text-decoration: none;
+    color: #888888;
+    font-size: 150%;
+    margin: auto;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+#wrapper  nav #menu ul li a.active {
+    color: cyan;
+}
+
+#wrapper  nav #menu ul li a:hover:not(.active) {
+    color: #FFFFFF;
+}
+
+#main_page {
+    padding-top: 150px;
+}
+
+#main_page #show {
+    width: 85%;
+    height: 150px;
+    margin: 15px auto;
+}
+
+#main_page #show img {
+    width: 100%;
+    height: 100%;
+}
+
+#main_page #main_section {
+    width:  100%;
+    height: auto;
+    margin: 30px 0px 50px 0px;
+    padding: 0px 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#main_page #main_section .box {
+    color: rgb(211, 149, 79);
+    background-color: white;
+    box-shadow: 3px 3px 10px darkgrey;
+    width: 290px;
+    margin: 30px 1%;
+    padding: 30px;
+}
+
+.about h1 {
+    color: steelblue;
+    border-bottom: 7px double steelblue;
+    margin: 2%;
+}
+
+footer {
+    background: linear-gradient(to top, #AAAAAA -100%, #0F0824 100%);
+    color: white;
+    padding: 30px 5% 2% 5%;
+    width: 100%;
+    float: left;
+    font-size: 80%;
+}
+
+
