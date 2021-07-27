@@ -164,7 +164,7 @@ body {
 }
 
 footer {
-    background: linear-gradient(to top, #AAAAAA -100%, #0F0824 100%);
+    background-color: #fffff;
     color: white;
     padding: 30px 5% 2% 5%;
     width: 100%;
